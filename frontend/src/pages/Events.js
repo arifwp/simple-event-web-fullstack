@@ -1,24 +1,25 @@
-import { Link } from "react-router-dom";
-
-const DUMMY_EVENTS = [
-  { id: "EV-1", title: "Ketaon Fair 2024", image: "", date: "21:00" },
-  { id: "EV-2", title: "Jazz Music", image: "", date: "19:30" },
-  { id: "EV-3", title: "Prambanan Fest", image: "", date: "01:45" },
-];
+import { useLoaderData } from "react-router-dom";
+import EventsList from "../components/EventsList";
 
 function EventsPage() {
+  const events = useLoaderData();
+
   return (
     <>
-      <h1>Events Page</h1>
-      <ul>
-        {DUMMY_EVENTS.map((eventData) => (
-          <li key={eventData.id}>
-            <Link to={eventData.id}>{eventData.title}</Link>
-          </li>
-        ))}
-      </ul>
+      <EventsList events={events} />
     </>
   );
 }
 
 export default EventsPage;
+
+export async function loader() {
+  const response = await fetch("http://localhost:8080/events");
+
+  if (!response.ok) {
+    // ...
+  } else {
+    const resData = await response.json();
+    return resData.events;
+  }
+}
