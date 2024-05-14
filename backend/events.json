@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"Koplo gan","image":"https://img.freepik.com/premium-photo/crowd-music-festival-with-sunset-background_780838-1644.jpg","date":"2024-05-28","description":"asd","id":"5e54ea01-6275-4dcc-98a9-163c606ddd55"},{"title":"Another events","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1cdGAnB8GiWCIt5osEgvzYE_UUV156If0SUuZHHZtw&s","date":"2024-06-06","description":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1cdGAnB8GiWCIt5osEgvzYE_UUV156If0SUuZHHZtw&s","id":"aee63a71-e7da-4dae-bfaa-df1d3a51785a"},{"title":"Event Kopl","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1cdGAnB8GiWCIt5osEgvzYE_UUV156If0SUuZHHZtw&s","date":"2024-06-05","description":"Koplo jogja","id":"39495ba1-1e5b-420e-9436-9d22b0751b67"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
